@@ -327,6 +327,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@junghyeonsu/eslint-config-base@workspace:packages/eslint/base":
+  version: 0.0.0-use.local
+  resolution: "@junghyeonsu/eslint-config-base@workspace:packages/eslint/base"
+  dependencies:
+    eslint: ^8.29.0
+    eslint-config-airbnb: ^19.0.4
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-json-format: ^2.0.1
+    eslint-plugin-prettier: ^4.2.1
+    eslint-plugin-simple-import-sort: ^8.0.0
+    prettier: ^2.8.0
+  peerDependencies:
+    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
+    prettier: ^2.0.0
+  languageName: unknown
+  linkType: soft
+
 "@manypkg/find-root@npm:^1.1.0":
   version: 1.1.0
   resolution: "@manypkg/find-root@npm:1.1.0"
@@ -1066,24 +1084,6 @@ __metadata:
   checksum: 253178689c3c80eef2567e3aaf0612e18973bc9cf51d9be36074b5dd58210e8b6942200a424bcccbb81ac884e41303479ab09f251a2a97addc2de61efdc9576c
   languageName: node
   linkType: hard
-
-"eslint-config-junghyeonsu-base@workspace:packages/eslint/base":
-  version: 0.0.0-use.local
-  resolution: "eslint-config-junghyeonsu-base@workspace:packages/eslint/base"
-  dependencies:
-    eslint: ^8.29.0
-    eslint-config-airbnb: ^19.0.4
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-json-format: ^2.0.1
-    eslint-plugin-prettier: ^4.2.1
-    eslint-plugin-simple-import-sort: ^8.0.0
-    prettier: ^2.8.0
-  peerDependencies:
-    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-    prettier: ^2.0.0
-  languageName: unknown
-  linkType: soft
 
 "eslint-config-prettier@npm:^8.5.0":
   version: 8.5.0

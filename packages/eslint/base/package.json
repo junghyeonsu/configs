@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-junghyeonsu-base",
-  "version": "0.0.0",
+  "name": "@junghyeonsu/eslint-config-base",
+  "version": "0.0.2",
   "main": "index.js",
   "files": [
     "index.js"
