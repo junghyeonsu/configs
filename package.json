@@ -1,13 +1,16 @@
 {
-  "name": "@jhs/configs-monorepo",
+  "name": "@junghyeonsu/configs",
   "version": "0.0.1",
   "description": "junghyeonsu's configs",
   "private": true,
-  "main": "index.js",
   "repository": "https://github.com/junghyeonsu/configs.git",
   "author": "junghyeonsu <jung660317@naver.com>",
   "license": "MIT",
   "packageManager": "yarn@3.3.0",
+  "scripts": {
+    "release": "yarn changeset publish",
+    "version": "changeset version --snapshot main && yarn install --no-immutable"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.25.2",
     "typescript": "^4.9.3"

@@ -1,7 +1,10 @@
 {
-  "name": "@jhs/eslint-config-base",
-  "version": "0.0.2",
+  "name": "eslint-config-junghyeonsu-base",
+  "version": "0.0.0",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/junghyeonsu/configs",
