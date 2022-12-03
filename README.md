@@ -2,5 +2,5 @@
 
 my custom config files
 
-- eslint-plugins
+- eslint-configs
 - etc...
