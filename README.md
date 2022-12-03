@@ -1,2 +1,6 @@
-# eslint-plugin
-my custom eslint plugins
+# configs
+
+my custom config files
+
+- eslint-plugins
+- etc...
