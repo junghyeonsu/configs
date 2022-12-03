@@ -1,10 +1,18 @@
 {
-  "name": "@junghyeonsu/eslint-config-base",
+  "name": "@jhs/eslint-config-base",
   "version": "0.0.1",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/junghyeonsu/configs"
+    "url": "https://github.com/junghyeonsu/configs",
+    "directory": "packages/eslint/base"
+  },
+  "author": {
+    "name": "Hyeonsu Jung",
+    "email": "jung660317@naver.com"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "MIT",
   "packageManager": "yarn@3.3.0",

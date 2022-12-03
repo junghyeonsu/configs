@@ -318,18 +318,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@junghyeonsu/configs-monorepo@workspace:.":
+"@jhs/configs-monorepo@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@junghyeonsu/configs-monorepo@workspace:."
+  resolution: "@jhs/configs-monorepo@workspace:."
   dependencies:
     "@changesets/cli": ^2.25.2
     typescript: ^4.9.3
   languageName: unknown
   linkType: soft
 
-"@junghyeonsu/eslint-config-base@workspace:packages/eslint/base":
+"@jhs/eslint-config-base@workspace:packages/eslint/base":
   version: 0.0.0-use.local
-  resolution: "@junghyeonsu/eslint-config-base@workspace:packages/eslint/base"
+  resolution: "@jhs/eslint-config-base@workspace:packages/eslint/base"
   dependencies:
     eslint: ^8.29.0
     eslint-config-airbnb: ^19.0.4
