@@ -1,36 +1,35 @@
 {
   "name": "@junghyeonsu/eslint-config-base",
-  "version": "0.0.2",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
+  "version": "0.0.10",
   "repository": {
     "type": "git",
     "url": "https://github.com/junghyeonsu/configs",
     "directory": "packages/eslint/base"
   },
+  "license": "MIT",
   "author": {
     "name": "Hyeonsu Jung",
     "email": "jung660317@naver.com"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "license": "MIT",
-  "packageManager": "yarn@3.3.0",
-  "peerDependencies": {
-    "eslint": "^6.0.0 || ^7.0.0 || ^8.0.0",
-    "prettier": "^2.0.0"
-  },
-  "devDependencies": {
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
     "eslint": "^8.29.0",
-    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-json-format": "^2.0.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "prettier": "^2.8.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0 || ^7.0.0 || ^8.0.0",
+    "prettier": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

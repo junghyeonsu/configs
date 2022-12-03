@@ -323,16 +323,22 @@ __metadata:
   resolution: "@junghyeonsu/configs@workspace:."
   dependencies:
     "@changesets/cli": ^2.25.2
+    "@junghyeonsu/eslint-config-base": "workspace:^"
+    eslint: ^8.29.0
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-json-format: ^2.0.1
+    eslint-plugin-prettier: ^4.2.1
+    prettier: ^2.8.0
     typescript: ^4.9.3
   languageName: unknown
   linkType: soft
 
-"@junghyeonsu/eslint-config-base@workspace:packages/eslint/base":
+"@junghyeonsu/eslint-config-base@workspace:^, @junghyeonsu/eslint-config-base@workspace:packages/eslint/base":
   version: 0.0.0-use.local
   resolution: "@junghyeonsu/eslint-config-base@workspace:packages/eslint/base"
   dependencies:
     eslint: ^8.29.0
-    eslint-config-airbnb: ^19.0.4
+    eslint-config-airbnb-base: ^15.0.0
     eslint-config-prettier: ^8.5.0
     eslint-plugin-import: ^2.26.0
     eslint-plugin-json-format: ^2.0.1
@@ -1065,23 +1071,6 @@ __metadata:
     eslint: ^7.32.0 || ^8.2.0
     eslint-plugin-import: ^2.25.2
   checksum: 38626bad2ce2859fccac86b30cd2b86c9b7d8d71d458331860861dc05290a5b198bded2f4fb89efcb9046ec48f8ab4c4fb00365ba8916f27b172671da28b93ea
-  languageName: node
-  linkType: hard
-
-"eslint-config-airbnb@npm:^19.0.4":
-  version: 19.0.4
-  resolution: "eslint-config-airbnb@npm:19.0.4"
-  dependencies:
-    eslint-config-airbnb-base: ^15.0.0
-    object.assign: ^4.1.2
-    object.entries: ^1.1.5
-  peerDependencies:
-    eslint: ^7.32.0 || ^8.2.0
-    eslint-plugin-import: ^2.25.3
-    eslint-plugin-jsx-a11y: ^6.5.1
-    eslint-plugin-react: ^7.28.0
-    eslint-plugin-react-hooks: ^4.3.0
-  checksum: 253178689c3c80eef2567e3aaf0612e18973bc9cf51d9be36074b5dd58210e8b6942200a424bcccbb81ac884e41303479ab09f251a2a97addc2de61efdc9576c
   languageName: node
   linkType: hard
 
