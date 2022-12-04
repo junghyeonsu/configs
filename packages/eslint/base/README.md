@@ -47,6 +47,6 @@ module.exports = {
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.validate": ["javascript", "typescript", "json"]
+  "eslint.validate": ["javascript", "json"]
 }
 ```
