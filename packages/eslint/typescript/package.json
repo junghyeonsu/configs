@@ -1,0 +1,29 @@
+{
+  "name": "@junghyeonsu/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "eslint typescript와 관련된 설정들이 있어요.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junghyeonsu/configs",
+    "directory": "packages/eslint/typescript"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Hyeonsu Jung",
+    "email": "jung660317@naver.com"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0"
+  },
+  "peerDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
