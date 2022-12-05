@@ -40,7 +40,7 @@ module.exports = {
 };
 ```
 
-- `.vscode/settings.json`
+- `.vscode/settings.json` (만약 프로젝트에 vscode 설정을 통일시키고 싶다면...)
 
 ```json
 {

@@ -1,11 +1,11 @@
 {
-  "name": "@junghyeonsu/eslint-config-typescript",
+  "name": "@junghyeonsu/eslint-config-react",
   "version": "0.0.1",
-  "description": "typescript에 대한 eslint 설정들이 들어있어요.",
+  "description": "리액트에 대한 eslint plugin 모음 패키지예요.",
   "repository": {
     "type": "git",
     "url": "https://github.com/junghyeonsu/configs",
-    "directory": "packages/eslint/typescript"
+    "directory": "packages/eslint/react"
   },
   "license": "MIT",
   "author": {
@@ -17,12 +17,13 @@
     "index.js"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.45.0",
-    "@typescript-eslint/parser": "^5.45.0",
-    "eslint-config-airbnb-typescript": "^17.0.0"
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "peerDependencies": {
-    "typescript": "^4.0.0"
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
   },
   "publishConfig": {
     "access": "public"
