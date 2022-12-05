@@ -1,6 +1,6 @@
 {
   "name": "@junghyeonsu/eslint-config-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "리액트에 대한 eslint plugin 모음 패키지예요.",
   "repository": {
     "type": "git",
