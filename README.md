@@ -1,6 +1,9 @@
 # configs
 
-my custom config files
+설정들을 패키지로 만들어놔요.
 
-- eslint-configs
+- eslint
+  - @junghyeonsu/eslint-config-base
+  - @junghyeonsu/eslint-config-typescript
+  - @junghyeonsu/eslint-config-react
 - etc...
