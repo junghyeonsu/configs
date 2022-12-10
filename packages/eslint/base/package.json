@@ -1,6 +1,6 @@
 {
   "name": "@junghyeonsu/eslint-config-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "javascript에 대한 eslint, prettier 그리고 기본적인 플러그인이 들어있어요.",
   "repository": {
     "type": "git",

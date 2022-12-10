@@ -1,5 +1,11 @@
 # @junghyeonsu/eslint-config-typescript
 
+## 1.0.1
+
+### Patch Changes
+
+- 38bfb9c: update files field in package.json
+
 ## 1.0.0
 
 ### Major Changes
