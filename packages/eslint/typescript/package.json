@@ -1,6 +1,6 @@
 {
   "name": "@junghyeonsu/eslint-config-typescript",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "typescript에 대한 eslint 설정들이 들어있어요.",
   "repository": {
     "type": "git",
