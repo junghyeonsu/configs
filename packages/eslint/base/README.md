@@ -2,6 +2,8 @@
 
 ### info
 
+#### dependencies
+
 ```json
 {
   "dependencies": {
@@ -14,6 +16,20 @@
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "prettier": "^2.8.0"
   }
+}
+```
+
+#### prettier config
+
+```json
+{
+  "singleQuote": false,
+  "semi": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "arrowParens": "always"
 }
 ```
 

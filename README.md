@@ -7,3 +7,27 @@
   - [@junghyeonsu/eslint-config-typescript](https://github.com/junghyeonsu/configs/tree/main/packages/eslint/typescript)
   - [@junghyeonsu/eslint-config-react](https://github.com/junghyeonsu/configs/tree/main/packages/eslint/react)
 - etc...
+
+## Quick Start
+
+### ESLint + Prettier
+
+> React, TypeScript 프로젝트
+
+```console
+$ yarn add -D @junghyeonsu/eslint-config-base @junghyeonsu/eslint-config-react @junghyeonsu/eslint-config-typescript eslint prettier
+```
+
+```js
+// .esilntrc.js
+module.exports = {
+  parserOptions: {
+    project: "./tsconfig.json", // tsconfig가 필요해요.
+  },
+  extends: [
+    "@junghyeonsu/react",
+    "@junghyeonsu/typescript",
+    "@junghyeonsu/base", // base가 제일 마지막에 존재해야 해요.
+  ],
+};
+```
