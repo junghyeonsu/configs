@@ -23,7 +23,8 @@
   "main": "./lib/index.js",
   "source": "./src/index.js",
   "files": [
-    "index.js"
+    "lib",
+    "src"
   ],
   "scripts": {
     "build": "nanobundle build",
