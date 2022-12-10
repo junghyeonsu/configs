@@ -15,4 +15,5 @@ node_modules
 .ultra.cache.json
 
 dist
+lib
 /storybook-static

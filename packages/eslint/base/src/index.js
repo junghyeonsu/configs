@@ -21,5 +21,6 @@ module.exports = {
     "simple-import-sort/exports": "error",
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
+    "import/extensions": "off",
   },
 };
