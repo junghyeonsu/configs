@@ -1,5 +1,11 @@
 # @junghyeonsu/eslint-config-typescript
 
+## 1.0.2
+
+### Patch Changes
+
+- 330dfad: chore: update peerDependencies
+
 ## 1.0.1
 
 ### Patch Changes
