@@ -1,5 +1,15 @@
 # @junghyeonsu/eslint-config-base
 
+## 1.0.0
+
+### Major Changes
+
+- 91b2d38: release with supports cjs, mjs
+
+### Patch Changes
+
+- 2b4b3d6: feat(base): add rules
+
 ## 0.1.1
 
 ### Patch Changes
