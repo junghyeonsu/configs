@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "build": "ultra -r build",
-    "release": "yarn changeset publish"
+    "release": "yarn changeset publish",
+    "version": "changeset version --snapshot main && yarn install --no-immutable"
   },
   "devDependencies": {
     "@changesets/cli": "^2.25.2",
