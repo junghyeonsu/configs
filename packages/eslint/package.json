@@ -22,7 +22,6 @@
     "./package.json": "./package.json"
   },
   "main": "./lib/index.js",
-  "source": "./index.js",
   "files": [
     "index.js",
     "src",
