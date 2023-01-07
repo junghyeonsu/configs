@@ -1,6 +1,6 @@
 {
   "name": "@junghyeonsu/eslint-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "junghyeonsu eslint custom plugin and config",
   "repository": {
     "type": "git",
